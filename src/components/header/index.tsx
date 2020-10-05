@@ -1,10 +1,10 @@
-import React, { FunctionComponent } from 'react';
+import React, { VFC } from 'react';
 import { Container, Text, Logo } from './styles';
 
 //* assets
 import logo from '../../assets/logo.png';
 
-const Header: FunctionComponent = () => {
+const Header: VFC = () => {
   return (
     <Container>
       <Logo src={logo} />

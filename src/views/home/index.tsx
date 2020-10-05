@@ -13,8 +13,8 @@ const Home: FunctionComponent<Props> = ({ name, edad }) => {
 
   return (
     <Container>
-      <p>{name}</p>
-      <p>{edad}</p>
+      <p>hola</p>
+      <p>hola</p>
     </Container>
   );
 };
